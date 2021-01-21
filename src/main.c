@@ -21,6 +21,6 @@ unsigned char *get_ptr(int x)
 }
 
 void digest(uint32_t length) {
-    uint32_t msg_len = strlen(msg);
+    uint32_t msg_len = length;
     ripemd160(msg, msg_len, hash);
 }
