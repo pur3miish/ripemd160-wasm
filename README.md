@@ -2,6 +2,7 @@
 
 # ripemd160-wasm
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/pur3miish/ripemd160-wasm/blob/main/LICENSE)
+
 Generate a portable standalone web assembly module for the cryptographic hash function RIPEMD160.
 
 # Setup
