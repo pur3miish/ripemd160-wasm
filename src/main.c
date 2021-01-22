@@ -1,7 +1,7 @@
-#include "ripemd160.c"
+#include "ripemd160-wasm.c"
 
-uint8_t hash[RIPEMD160_DIGEST_LENGTH];
-uint8_t msg[59];
+uint8_t hash[20];
+uint8_t msg[65536];
 
 unsigned char *get_ptr(int x)
 {
